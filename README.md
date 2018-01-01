@@ -1,7 +1,7 @@
-# chess
+# Chess
 Chess Game
 
-This is a simple chess GUI game developed using Java
+This is a simple chess GUI game developed with Java
 
 ## Basic Functionality
 
@@ -26,5 +26,4 @@ This is a simple chess GUI game developed using Java
 * SeokHyun Song
 
 ## Comment
-
-Although the game works fine, GameManager class is still under construction. There are some methods to be refactored.
+Custom chess pieces, Guardian and Witch, are the pieces that I created. Guardian can move to any position near King. Purpose of this piece is to protect the King. Witch summons pawn if it captures enemies. A user can use those pieces by changing game mode. In addition, Undo and Redo functionality are implemented with Data Structure, Queue.
